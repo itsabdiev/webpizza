@@ -1,0 +1,37 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Update Product</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+          crossorigin="anonymous" />
+</head>
+<body>
+
+<div class="container">
+
+    <h3>Update Product</h3>
+    <hr/>
+
+    <form th:method="PATCH" th:action="@{/coffix/updateproduct/{id} (id = ${product.getId()})}" th:object="${product}" >
+        <input type="text" th:field="*{name}" class="form-control col-4 mb-4" placeholder="Enter Name" />
+
+        <input type="text" th:field="*{description}" class="form-control col-4 mb-4" placeholder="Enter description" />
+
+        <input type="text" th:field="*{picture}" class="form-control col-4 mb-4" placeholder="Enter picture url" />
+
+        <input type="text" th:field="*{price}" class="form-control col-4 mb-4" placeholder="Enter price" />
+
+<!--        <button type="submit" class="btn btn-primary col-2" >Update</button>-->
+        <input class="btn btn-primary col-2" type="submit" value="Update" >
+
+
+    </form>
+    <hr/>
+    <a th:href="@{/coffix}">Back to list</a>
+</div>
+
+</body>
+</html>
