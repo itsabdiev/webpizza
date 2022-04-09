@@ -19,7 +19,7 @@ public class ProductController {
     }
 
 
-    @GetMapping("/main")
+    @GetMapping({"/main","/"})
     public String getMain(Model model){
         return "main";
     }
