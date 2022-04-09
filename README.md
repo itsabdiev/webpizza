@@ -13,9 +13,10 @@
     <br />   
 
 ### Languages and Tools:
-[<img align="left" alt="Java " width="36px" src="http://www.thymeleaf.org/images/thymeleaf.png" />]
-[<img align="left" alt="Java " width="36px" src="https://symbols-electrical.getvecta.com/stencil_96/69_spring-framework-icon.d563816ce9.jpg" />]
-[<img align="left" alt="Scene Builder " width="36px" src="https://coderlessons.com/wp-content/uploads/images/stp/426c04c3f3e6c1621b2b2bf9dc3a7aaf.jpg" />] <br /> 
+<img align="left" alt="Java " width="36px" src="http://www.thymeleaf.org/images/thymeleaf.png" />
+<img align="left" alt="Java " width="36px" src="https://symbols-electrical.getvecta.com/stencil_96/69_spring-framework-icon.d563816ce9.jpg" />
+<img align="left" alt="Java " width="36px" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" />
+<img align="left" alt="Scene Builder " width="36px" src="https://coderlessons.com/wp-content/uploads/images/stp/426c04c3f3e6c1621b2b2bf9dc3a7aaf.jpg" /> <br /> 
 
 <br />
 
